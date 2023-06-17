@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
-*main - entry point
-*return : always 0 (success)
+	*main - Entry point
+	*Description: 'by force i must put description'
+	*Return: always 0
 */
 int main(void)
 {
