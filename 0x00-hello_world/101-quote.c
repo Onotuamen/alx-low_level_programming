@@ -2,7 +2,7 @@
 #include <unistd.h>
 /**
  *main - Entry point
- *Description - 'prirint a script but dont use printf to stderr'
+ *Description - 'print a script but dont use printf to stderr'
  *Return: always 0
  */
 	int main(void)
