@@ -5,7 +5,7 @@
 	*Return: always 0
 */
 
-int(void)
+int main(void)
 
 	{
 		int a;
