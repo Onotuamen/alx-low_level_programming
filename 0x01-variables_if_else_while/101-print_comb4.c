@@ -21,7 +21,7 @@ int main(void)
 				putchar(hndrds);
 				putchar(tns);
 				putchar(ons);
-				if (!(ons == '9' && hundrds == '7' && tns == '8'))
+				if (!(ons == '9' && hndrds == '7' && tns == '8'))
 				{
 					putchar(',');
 					putchar(' ');
