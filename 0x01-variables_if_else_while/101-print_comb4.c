@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 	*main - Entry point
-	*Desription: 'print lowercase alphets'
+	*Desription: 'print mandatory section lowercase alphets'
 	*Return: always 0
 */
 int main(void)
@@ -10,9 +10,9 @@ int main(void)
 	int tns = '0';
 	int hndrds = '0';
 
-	for (hndrds = '0' ; tns <= '9'; hndrds++)
+	for (hndrds = '0' ; hndrds <= '9'; hndrds++)
 	{
-		for (ons = '0'; tns <= '9'; tns++)
+		for (tns = '0'; tns <= '9'; tns++)
 		{
 			for (ons = '0'; ons <= '9'; ons++)
 			{
