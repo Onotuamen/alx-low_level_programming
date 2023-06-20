@@ -16,7 +16,7 @@ int main(void)
 		{
 			for (ons = '0'; ons <= '9'; ons++)
 			{
-			if (!((ons == tns) || (tns == hndrds) || (tns > ons) || (hundrds > tns)))
+			if (!((ons == tns) || (tns == hndrds) || (tns > ons) || (hndrds > tns)))
 			{
 				putchar(hndrds);
 				putchar(tns);
