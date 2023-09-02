@@ -1,0 +1,1 @@
+readme for argc and argv; where argc is the count of the number of arguments and argv meaning argument vector is a one dimensional vector matrix tht holds the pointers to all the sstrings contained in an array; because strind declare with char
