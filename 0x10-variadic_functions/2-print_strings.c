@@ -5,13 +5,13 @@
 
 
 /**
-* print_strings - Prints strings, followed by a new line.
-* @separator: The string to be printed between strings.
-* @n: The number of strings passed to the function.
-* @...: A variable number of strings to be printed.
+* print_strings - Prints the strings, followed by a new line.
+* @separator:for  The string to be printed in between strings.
+* @n: The number of strings to be passed to the function.
+* @...: A variable number of strings to be printed - variadic.
 *
-* Description: If separator is NULL, it is not printed.
-*              If one of the strings if NULL, (nil) is printed instead.
+* Description: If separator is NULL, do  not print.
+*              If one of the strings if NULL, nil)is printed otherwise.
 */
 	void print_strings(const char *separator, const unsigned int n, ...)
 	{
